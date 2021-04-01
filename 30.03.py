@@ -1,0 +1,16 @@
+slovar={
+    'Finn':{
+        'age':19,
+        'gender':'male'
+        },
+    'Jade':{
+        'age':24,
+        'gender':'female'},
+    'Mike':{
+        'age':33,
+        'gender':'male'
+    }
+    }
+slovar['Mike']['age']
+slovar.update({'Chyngyz':'teacher'})
+print(slovar)
